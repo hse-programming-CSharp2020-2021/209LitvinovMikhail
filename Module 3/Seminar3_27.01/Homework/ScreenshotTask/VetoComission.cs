@@ -5,11 +5,12 @@ using System.Text;
 namespace ScreenshotTask {
     class VetoComission {
 
-        private event EventHandler<VetoEventArgs> OnVote;
+        // Не смог понять, почему при определении OnVote в качестве свойства не получается вызвать событие в Vote(string proposal).
+        public event EventHandler<VetoEventArgs> OnVote;
 
         public VetoEventArgs Vote (string proposal) {
             VetoEventArgs result = new VetoEventArgs(proposal);
-            OnVote(this, result);
+            OnVote?.Invoke(this, result);
             return result;
         }
     }

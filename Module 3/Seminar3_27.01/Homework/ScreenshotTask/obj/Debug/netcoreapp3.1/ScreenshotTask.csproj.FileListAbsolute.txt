@@ -1,0 +1,13 @@
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar3_27.01\Homework\ScreenshotTask\bin\Debug\netcoreapp3.1\ScreenshotTask.exe
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar3_27.01\Homework\ScreenshotTask\bin\Debug\netcoreapp3.1\ScreenshotTask.deps.json
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar3_27.01\Homework\ScreenshotTask\bin\Debug\netcoreapp3.1\ScreenshotTask.runtimeconfig.json
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar3_27.01\Homework\ScreenshotTask\bin\Debug\netcoreapp3.1\ScreenshotTask.runtimeconfig.dev.json
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar3_27.01\Homework\ScreenshotTask\bin\Debug\netcoreapp3.1\ScreenshotTask.dll
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar3_27.01\Homework\ScreenshotTask\bin\Debug\netcoreapp3.1\ScreenshotTask.pdb
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar3_27.01\Homework\ScreenshotTask\obj\Debug\netcoreapp3.1\ScreenshotTask.csprojAssemblyReference.cache
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar3_27.01\Homework\ScreenshotTask\obj\Debug\netcoreapp3.1\ScreenshotTask.AssemblyInfoInputs.cache
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar3_27.01\Homework\ScreenshotTask\obj\Debug\netcoreapp3.1\ScreenshotTask.AssemblyInfo.cs
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar3_27.01\Homework\ScreenshotTask\obj\Debug\netcoreapp3.1\ScreenshotTask.csproj.CoreCompileInputs.cache
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar3_27.01\Homework\ScreenshotTask\obj\Debug\netcoreapp3.1\ScreenshotTask.dll
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar3_27.01\Homework\ScreenshotTask\obj\Debug\netcoreapp3.1\ScreenshotTask.pdb
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar3_27.01\Homework\ScreenshotTask\obj\Debug\netcoreapp3.1\ScreenshotTask.genruntimeconfig.cache

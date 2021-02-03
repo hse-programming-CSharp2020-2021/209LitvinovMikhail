@@ -6,7 +6,7 @@ namespace ScreenshotTask {
     class VetoEventArgs : EventArgs {
         public string Proposal { get; private set; }
 
-        public VetoVoter VetoBy { get; private protected set; } = null;
+        public VetoVoter VetoBy { get; internal set; } = null;
 
         public VetoEventArgs(string proposal) {
             this.Proposal = proposal;
