@@ -1,0 +1,13 @@
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar5_10.02\Classwork\Classwork\Task2\bin\Debug\netcoreapp3.1\Task2.exe
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar5_10.02\Classwork\Classwork\Task2\bin\Debug\netcoreapp3.1\Task2.deps.json
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar5_10.02\Classwork\Classwork\Task2\bin\Debug\netcoreapp3.1\Task2.runtimeconfig.json
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar5_10.02\Classwork\Classwork\Task2\bin\Debug\netcoreapp3.1\Task2.runtimeconfig.dev.json
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar5_10.02\Classwork\Classwork\Task2\bin\Debug\netcoreapp3.1\Task2.dll
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar5_10.02\Classwork\Classwork\Task2\bin\Debug\netcoreapp3.1\Task2.pdb
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar5_10.02\Classwork\Classwork\Task2\obj\Debug\netcoreapp3.1\Task2.csprojAssemblyReference.cache
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar5_10.02\Classwork\Classwork\Task2\obj\Debug\netcoreapp3.1\Task2.AssemblyInfoInputs.cache
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar5_10.02\Classwork\Classwork\Task2\obj\Debug\netcoreapp3.1\Task2.AssemblyInfo.cs
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar5_10.02\Classwork\Classwork\Task2\obj\Debug\netcoreapp3.1\Task2.csproj.CoreCompileInputs.cache
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar5_10.02\Classwork\Classwork\Task2\obj\Debug\netcoreapp3.1\Task2.dll
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar5_10.02\Classwork\Classwork\Task2\obj\Debug\netcoreapp3.1\Task2.pdb
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar5_10.02\Classwork\Classwork\Task2\obj\Debug\netcoreapp3.1\Task2.genruntimeconfig.cache
