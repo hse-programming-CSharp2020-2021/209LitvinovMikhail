@@ -1,0 +1,13 @@
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar5_17.02\Classwork\Classwork\Classwork_1\bin\Debug\netcoreapp3.1\Classwork_1.exe
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar5_17.02\Classwork\Classwork\Classwork_1\bin\Debug\netcoreapp3.1\Classwork_1.deps.json
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar5_17.02\Classwork\Classwork\Classwork_1\bin\Debug\netcoreapp3.1\Classwork_1.runtimeconfig.json
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar5_17.02\Classwork\Classwork\Classwork_1\bin\Debug\netcoreapp3.1\Classwork_1.runtimeconfig.dev.json
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar5_17.02\Classwork\Classwork\Classwork_1\bin\Debug\netcoreapp3.1\Classwork_1.dll
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar5_17.02\Classwork\Classwork\Classwork_1\bin\Debug\netcoreapp3.1\Classwork_1.pdb
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar5_17.02\Classwork\Classwork\Classwork_1\obj\Debug\netcoreapp3.1\Classwork_1.csprojAssemblyReference.cache
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar5_17.02\Classwork\Classwork\Classwork_1\obj\Debug\netcoreapp3.1\Classwork_1.AssemblyInfoInputs.cache
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar5_17.02\Classwork\Classwork\Classwork_1\obj\Debug\netcoreapp3.1\Classwork_1.AssemblyInfo.cs
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar5_17.02\Classwork\Classwork\Classwork_1\obj\Debug\netcoreapp3.1\Classwork_1.csproj.CoreCompileInputs.cache
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar5_17.02\Classwork\Classwork\Classwork_1\obj\Debug\netcoreapp3.1\Classwork_1.dll
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar5_17.02\Classwork\Classwork\Classwork_1\obj\Debug\netcoreapp3.1\Classwork_1.pdb
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar5_17.02\Classwork\Classwork\Classwork_1\obj\Debug\netcoreapp3.1\Classwork_1.genruntimeconfig.cache
