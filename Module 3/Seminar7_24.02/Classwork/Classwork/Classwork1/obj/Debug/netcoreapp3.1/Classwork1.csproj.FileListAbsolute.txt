@@ -1,0 +1,13 @@
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar7_24.02\Classwork\Classwork\Classwork1\obj\Debug\netcoreapp3.1\Classwork1.csprojAssemblyReference.cache
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar7_24.02\Classwork\Classwork\Classwork1\obj\Debug\netcoreapp3.1\Classwork1.AssemblyInfoInputs.cache
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar7_24.02\Classwork\Classwork\Classwork1\obj\Debug\netcoreapp3.1\Classwork1.AssemblyInfo.cs
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar7_24.02\Classwork\Classwork\Classwork1\obj\Debug\netcoreapp3.1\Classwork1.csproj.CoreCompileInputs.cache
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar7_24.02\Classwork\Classwork\Classwork1\bin\Debug\netcoreapp3.1\Classwork1.exe
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar7_24.02\Classwork\Classwork\Classwork1\bin\Debug\netcoreapp3.1\Classwork1.deps.json
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar7_24.02\Classwork\Classwork\Classwork1\bin\Debug\netcoreapp3.1\Classwork1.runtimeconfig.json
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar7_24.02\Classwork\Classwork\Classwork1\bin\Debug\netcoreapp3.1\Classwork1.runtimeconfig.dev.json
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar7_24.02\Classwork\Classwork\Classwork1\bin\Debug\netcoreapp3.1\Classwork1.dll
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar7_24.02\Classwork\Classwork\Classwork1\bin\Debug\netcoreapp3.1\Classwork1.pdb
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar7_24.02\Classwork\Classwork\Classwork1\obj\Debug\netcoreapp3.1\Classwork1.dll
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar7_24.02\Classwork\Classwork\Classwork1\obj\Debug\netcoreapp3.1\Classwork1.pdb
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar7_24.02\Classwork\Classwork\Classwork1\obj\Debug\netcoreapp3.1\Classwork1.genruntimeconfig.cache
