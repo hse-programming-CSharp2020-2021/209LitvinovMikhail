@@ -1,0 +1,16 @@
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\Homework\obj\Debug\net5.0\Homework.csprojAssemblyReference.cache
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\Homework\obj\Debug\net5.0\Homework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\Homework\obj\Debug\net5.0\Homework.AssemblyInfoInputs.cache
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\Homework\obj\Debug\net5.0\Homework.AssemblyInfo.cs
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\Homework\obj\Debug\net5.0\Homework.csproj.CoreCompileInputs.cache
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\Homework\bin\Debug\net5.0\Homework.exe
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\Homework\bin\Debug\net5.0\Homework.deps.json
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\Homework\bin\Debug\net5.0\Homework.runtimeconfig.json
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\Homework\bin\Debug\net5.0\Homework.runtimeconfig.dev.json
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\Homework\bin\Debug\net5.0\Homework.dll
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\Homework\bin\Debug\net5.0\ref\Homework.dll
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\Homework\bin\Debug\net5.0\Homework.pdb
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\Homework\obj\Debug\net5.0\Homework.dll
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\Homework\obj\Debug\net5.0\ref\Homework.dll
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\Homework\obj\Debug\net5.0\Homework.pdb
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\Homework\obj\Debug\net5.0\Homework.genruntimeconfig.cache
