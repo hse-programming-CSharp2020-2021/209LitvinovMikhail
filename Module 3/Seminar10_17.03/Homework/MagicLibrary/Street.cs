@@ -11,6 +11,10 @@ namespace MagicLibrary {
 
         private static Random RndGen { get; } = new Random();
 
+        public string GetStreetNotation {
+            get => $"{this.Name} " + string.Join(" ", this.Houses); 
+        }
+
         public Street() {
             this.Name = Street.GenerateName();
             this.Houses = new int[RndGen.Next(2, 10)];
@@ -18,6 +22,8 @@ namespace MagicLibrary {
                 this.Houses[i] = RndGen.Next(1, 101);
             }
         }
+
+
 
         public Street (string input) {
             string[] elements = input.Split(' ');

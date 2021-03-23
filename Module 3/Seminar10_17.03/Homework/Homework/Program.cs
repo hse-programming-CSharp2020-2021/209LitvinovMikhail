@@ -11,7 +11,8 @@ namespace Homework
         }
 
 
-        private const string dataFile = @"data.txt";
+        private const string inputFile = @"data.txt";
+        private const string outputFile = @"out.txt";
 
         private static ReadArrayMethod ReadingMethod { get; set; }
 
@@ -20,7 +21,7 @@ namespace Homework
         public static void Main() {
             int linesCount = 0;
             try {
-                Street.ValidateFile(Program.dataFile, out linesCount);
+                Street.ValidateFile(Program.inputFile, out linesCount);
                 Console.WriteLine($"Заданный файл полностью удовлетворяет условиям чтения информации {Environment.NewLine}{Environment.NewLine}");
                 Program.ReadingMethod = ReadArrayMethod.ReadFromFile;
             }
@@ -38,11 +39,15 @@ namespace Homework
             } while (flag);
             N = Math.Min(N, linesCount);
             Program.StreetsArray = new Street[N];
-            using (StreamReader reader = new StreamReader(Program.dataFile)) {
-                for (int i = 0; i < N; ++i) {
-                    Program.StreetsArray[i] = (Program.ReadingMethod == ReadArrayMethod.ReadFromFile) ?
-                        new Street(reader.ReadLine()) :
-                        new Street();
+            using (StreamReader reader = new StreamReader(Program.inputFile)) {
+                using (StreamWriter writer = new StreamWriter(Program.outputFile)) {
+                    for (int i = 0; i < N; ++i) {
+                        Program.StreetsArray[i] = (Program.ReadingMethod == ReadArrayMethod.ReadFromFile) ?
+                            new Street(reader.ReadLine()) :
+                            new Street();
+                        Console.WriteLine(Program.StreetsArray[i].ToString());
+                        writer.WriteLine(Program.StreetsArray[i].GetStreetNotation);
+                    }
                 }
             }
         }
