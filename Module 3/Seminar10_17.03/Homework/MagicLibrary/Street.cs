@@ -5,11 +5,23 @@ using System.IO;
 namespace MagicLibrary {
     public class Street {
 
+        public enum ReadArrayMethod : int {
+            RandomValues, ReadFromFile
+        }
+
+        public const string inputFile = @"data.txt";
+        public const string outputFile = @"out.txt";
+
+
         public string Name { get; private set; }
 
         public int[] Houses { get; private set; }
 
         private static Random RndGen { get; } = new Random();
+
+        public bool IsMagic {
+            get => (~this % 2 == 1) && !this;
+        }
 
         public string GetStreetNotation {
             get => $"{this.Name} " + string.Join(" ", this.Houses); 

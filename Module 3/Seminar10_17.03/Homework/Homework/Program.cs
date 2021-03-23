@@ -5,29 +5,21 @@ namespace Homework
 {
     class Program
     {
-        enum ReadArrayMethod : int
-        {
-            RandomValues, ReadFromFile
-        }
 
-
-        private const string inputFile = @"data.txt";
-        private const string outputFile = @"out.txt";
-
-        private static ReadArrayMethod ReadingMethod { get; set; }
+        private static Street.ReadArrayMethod ReadingMethod { get; set; }
 
         private static Street[] StreetsArray { get; set; }
 
         public static void Main() {
             int linesCount = 0;
             try {
-                Street.ValidateFile(Program.inputFile, out linesCount);
+                Street.ValidateFile(Street.inputFile, out linesCount);
                 Console.WriteLine($"Заданный файл полностью удовлетворяет условиям чтения информации {Environment.NewLine}{Environment.NewLine}");
-                Program.ReadingMethod = ReadArrayMethod.ReadFromFile;
+                Program.ReadingMethod = Street.ReadArrayMethod.ReadFromFile;
             }
             catch (Exception e) {
-                Console.WriteLine(e.Message + $" -{Environment.NewLine} значения будут получения случайным образом{Environment.NewLine}{Environment.NewLine}");
-                Program.ReadingMethod = ReadArrayMethod.RandomValues;
+                Console.WriteLine(e.Message + $" -{Environment.NewLine} значения будут получены случайным образом{Environment.NewLine}{Environment.NewLine}");
+                Program.ReadingMethod = Street.ReadArrayMethod.RandomValues;
             }
             int N;
             bool flag = false;
@@ -39,10 +31,10 @@ namespace Homework
             } while (flag);
             N = Math.Min(N, linesCount);
             Program.StreetsArray = new Street[N];
-            using (StreamReader reader = new StreamReader(Program.inputFile)) {
-                using (StreamWriter writer = new StreamWriter(Program.outputFile)) {
+            using (StreamReader reader = new StreamReader(Street.inputFile)) {
+                using (StreamWriter writer = new StreamWriter(Street.outputFile)) {
                     for (int i = 0; i < N; ++i) {
-                        Program.StreetsArray[i] = (Program.ReadingMethod == ReadArrayMethod.ReadFromFile) ?
+                        Program.StreetsArray[i] = (Program.ReadingMethod == Street.ReadArrayMethod.ReadFromFile) ?
                             new Street(reader.ReadLine()) :
                             new Street();
                         Console.WriteLine(Program.StreetsArray[i].ToString());
