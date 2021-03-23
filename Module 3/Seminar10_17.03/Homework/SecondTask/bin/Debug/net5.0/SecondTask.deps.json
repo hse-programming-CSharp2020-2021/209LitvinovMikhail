@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "Homework/1.0.0": {
+      "SecondTask/1.0.0": {
         "dependencies": {
           "MagicLibrary": "1.0.0"
         },
         "runtime": {
-          "Homework.dll": {}
+          "SecondTask.dll": {}
         }
       },
       "MagicLibrary/1.0.0": {
@@ -22,7 +22,7 @@
     }
   },
   "libraries": {
-    "Homework/1.0.0": {
+    "SecondTask/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

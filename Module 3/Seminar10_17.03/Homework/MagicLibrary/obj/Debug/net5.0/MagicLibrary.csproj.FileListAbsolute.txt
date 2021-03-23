@@ -1,0 +1,12 @@
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\MagicLibrary\bin\Debug\net5.0\MagicLibrary.deps.json
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\MagicLibrary\bin\Debug\net5.0\MagicLibrary.dll
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\MagicLibrary\bin\Debug\net5.0\ref\MagicLibrary.dll
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\MagicLibrary\bin\Debug\net5.0\MagicLibrary.pdb
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\MagicLibrary\obj\Debug\net5.0\MagicLibrary.csprojAssemblyReference.cache
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\MagicLibrary\obj\Debug\net5.0\MagicLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\MagicLibrary\obj\Debug\net5.0\MagicLibrary.AssemblyInfoInputs.cache
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\MagicLibrary\obj\Debug\net5.0\MagicLibrary.AssemblyInfo.cs
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\MagicLibrary\obj\Debug\net5.0\MagicLibrary.csproj.CoreCompileInputs.cache
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\MagicLibrary\obj\Debug\net5.0\MagicLibrary.dll
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\MagicLibrary\obj\Debug\net5.0\ref\MagicLibrary.dll
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\MagicLibrary\obj\Debug\net5.0\MagicLibrary.pdb

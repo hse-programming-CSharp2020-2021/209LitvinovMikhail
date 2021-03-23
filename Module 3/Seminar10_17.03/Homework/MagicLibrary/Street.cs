@@ -40,8 +40,8 @@ namespace MagicLibrary {
         public Street (string input) {
             string[] elements = input.Split(' ');
             if (elements.Length < 2) { throw new FormatException("Одна из заданных строк задана в некорректном формате."); }
-            string[] houseNumbers = null;
-            elements.CopyTo(houseNumbers, 1);
+            string[] houseNumbers = new string[elements.Length - 1];
+            for (int i = 0; i < houseNumbers.Length; ++i) { houseNumbers[i] = elements[i + 1]; }
             this.Name = elements[0];
             this.Houses = Array.ConvertAll<string, int>(houseNumbers,
                 delegate (string element) {
@@ -72,12 +72,12 @@ namespace MagicLibrary {
             return false;
         }
 
-        public override string ToString() => $"Street {this.Name} has {~this} houses :" +
+        public override string ToString() => $"Улица {this.Name} имеет {~this} домов : " +
             string.Join(", ", this.Houses);
 
         public static bool ValidateFile(string filePath, out int linesCount) {
+            if (!File.Exists(filePath)) { throw new FileNotFoundException("Указанного файла не существует."); }
             using (StreamReader reader = new StreamReader(filePath)) {
-                if (!File.Exists(filePath)) { throw new FileNotFoundException("Указанного файла не существует."); }
                 string[] lines = File.ReadAllLines(filePath);
                 if (lines.Length == 0) { throw new FormatException("Указанный файл пуст."); }
                 foreach (string line in lines) {

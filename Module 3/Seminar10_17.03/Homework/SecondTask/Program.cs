@@ -11,7 +11,7 @@ namespace SecondTask
             int linesCount = 0;
             try
             {
-                Street.ValidateFile(Street.inputFile, out linesCount);
+                Street.ValidateFile(Street.outputFile, out linesCount);
             }
             catch (Exception e)
             {
@@ -22,7 +22,7 @@ namespace SecondTask
                 for (int i = 0; i < linesCount; ++i) {
                     Program.StreetsArray[i] = new Street(reader.ReadLine());
                     if (Program.StreetsArray[i].IsMagic) {
-                        Console.WriteLine("Magic " + Program.StreetsArray[i].ToString());
+                        Console.WriteLine("Волшебная " + Program.StreetsArray[i].ToString());
                     }
                 }
             }

@@ -23,6 +23,7 @@ namespace Homework
             }
             int N;
             bool flag = false;
+            Console.WriteLine("Введите желаемое количество строк, которое будет считано из файла (введенное значение должно быть целым и больше нуля)");
             do {
                 if (flag) {
                     Console.WriteLine("Введенное значение должно быть целым и больше нуля");
@@ -33,13 +34,16 @@ namespace Homework
             Program.StreetsArray = new Street[N];
             using (StreamReader reader = new StreamReader(Street.inputFile)) {
                 using (StreamWriter writer = new StreamWriter(Street.outputFile)) {
-                    for (int i = 0; i < N; ++i) {
-                        Program.StreetsArray[i] = (Program.ReadingMethod == Street.ReadArrayMethod.ReadFromFile) ?
-                            new Street(reader.ReadLine()) :
-                            new Street();
-                        Console.WriteLine(Program.StreetsArray[i].ToString());
-                        writer.WriteLine(Program.StreetsArray[i].GetStreetNotation);
-                    }
+                    using (StreamWriter writerToTask2 = new StreamWriter(new FileStream(@"..\..\..\..\SecondTask\bin\Debug\net5.0\" + Street.outputFile, FileMode.OpenOrCreate, FileAccess.ReadWrite)))
+                        for (int i = 0; i < N; ++i)
+                        {
+                            Program.StreetsArray[i] = (Program.ReadingMethod == Street.ReadArrayMethod.ReadFromFile) ?
+                                new Street(reader.ReadLine()) :
+                                new Street();
+                            Console.WriteLine(Program.StreetsArray[i].ToString());
+                            writer.WriteLine(Program.StreetsArray[i].GetStreetNotation);
+                            writerToTask2.WriteLine(Program.StreetsArray[i].GetStreetNotation);
+                        }
                 }
             }
         }

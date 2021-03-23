@@ -14,3 +14,6 @@ C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\H
 C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\Homework\obj\Debug\net5.0\ref\Homework.dll
 C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\Homework\obj\Debug\net5.0\Homework.pdb
 C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\Homework\obj\Debug\net5.0\Homework.genruntimeconfig.cache
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\Homework\bin\Debug\net5.0\MagicLibrary.dll
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\Homework\bin\Debug\net5.0\MagicLibrary.pdb
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 3\Seminar10_17.03\Homework\Homework\obj\Debug\net5.0\Homework.csproj.CopyComplete
