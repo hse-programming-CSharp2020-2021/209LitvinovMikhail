@@ -1,0 +1,13 @@
+D:\HSE\Podbelsky\!!!Слайды лекций\Модуль_3\Web1\ConsoleApp_WebClient\bin\Debug\netcoreapp3.1\ConsoleApp_WebClient.exe
+D:\HSE\Podbelsky\!!!Слайды лекций\Модуль_3\Web1\ConsoleApp_WebClient\bin\Debug\netcoreapp3.1\ConsoleApp_WebClient.deps.json
+D:\HSE\Podbelsky\!!!Слайды лекций\Модуль_3\Web1\ConsoleApp_WebClient\bin\Debug\netcoreapp3.1\ConsoleApp_WebClient.runtimeconfig.json
+D:\HSE\Podbelsky\!!!Слайды лекций\Модуль_3\Web1\ConsoleApp_WebClient\bin\Debug\netcoreapp3.1\ConsoleApp_WebClient.runtimeconfig.dev.json
+D:\HSE\Podbelsky\!!!Слайды лекций\Модуль_3\Web1\ConsoleApp_WebClient\bin\Debug\netcoreapp3.1\ConsoleApp_WebClient.dll
+D:\HSE\Podbelsky\!!!Слайды лекций\Модуль_3\Web1\ConsoleApp_WebClient\bin\Debug\netcoreapp3.1\ConsoleApp_WebClient.pdb
+D:\HSE\Podbelsky\!!!Слайды лекций\Модуль_3\Web1\ConsoleApp_WebClient\obj\Debug\netcoreapp3.1\ConsoleApp_WebClient.csprojAssemblyReference.cache
+D:\HSE\Podbelsky\!!!Слайды лекций\Модуль_3\Web1\ConsoleApp_WebClient\obj\Debug\netcoreapp3.1\ConsoleApp_WebClient.AssemblyInfoInputs.cache
+D:\HSE\Podbelsky\!!!Слайды лекций\Модуль_3\Web1\ConsoleApp_WebClient\obj\Debug\netcoreapp3.1\ConsoleApp_WebClient.AssemblyInfo.cs
+D:\HSE\Podbelsky\!!!Слайды лекций\Модуль_3\Web1\ConsoleApp_WebClient\obj\Debug\netcoreapp3.1\ConsoleApp_WebClient.csproj.CoreCompileInputs.cache
+D:\HSE\Podbelsky\!!!Слайды лекций\Модуль_3\Web1\ConsoleApp_WebClient\obj\Debug\netcoreapp3.1\ConsoleApp_WebClient.dll
+D:\HSE\Podbelsky\!!!Слайды лекций\Модуль_3\Web1\ConsoleApp_WebClient\obj\Debug\netcoreapp3.1\ConsoleApp_WebClient.pdb
+D:\HSE\Podbelsky\!!!Слайды лекций\Модуль_3\Web1\ConsoleApp_WebClient\obj\Debug\netcoreapp3.1\ConsoleApp_WebClient.genruntimeconfig.cache

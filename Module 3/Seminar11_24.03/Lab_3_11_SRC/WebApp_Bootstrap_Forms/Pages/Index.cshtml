@@ -1,0 +1,43 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<div>
+    <div class="text-center">
+        <h1 class="display-4">Welcome @Model.Name</h1>
+    </div>
+    <form method="post" asp-page="Index">
+        <div class="form-group">
+            <label asp-for="Name">Введите имя:</label>
+            <input asp-for="Name" class="form-control" placeholder="Enter Name" autocomplete="off" value="@Model.Name" />
+        </div>
+        <div class="form-check">
+            <input asp-for="Check" type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label asp-for="Check" class="form-check-label" for="exampleCheck1" value="@Model.Check" selected="@(Model.Check ? "selected" : string.Empty)">Выбери меня</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <hr />
+
+        <p>Request.Query["urldata"] = @HttpContext.Request.Query["urldata"]</p>
+        <p>Request.Form["formdata"] = @Model.FormData</p>
+        <p>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                Отладочка
+            </button>
+        </p>
+        <div class="collapse" id="collapseExample">
+            <h2>RequestHeaders</h2>
+            <pre>@Model.RequestHeaders</pre>
+            <h2>Cookies</h2>
+            <pre>@Model.Cookies</pre>
+            <h2>Query</h2>
+            <pre>@Model.Query</pre>
+            <h2>Form</h2>
+            <pre>@Model.Form</pre>
+        </div>
+
+
+    </form>
+
+</div>

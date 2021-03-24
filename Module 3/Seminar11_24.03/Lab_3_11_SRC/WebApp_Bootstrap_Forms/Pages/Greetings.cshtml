@@ -1,0 +1,12 @@
+﻿@page
+@model WebApp_Bootstrap_Forms.Pages.GreetingsModel
+@{
+}
+<form method="GET" asp-page="Greetings">
+    @Request.Query["name"]
+    <div class="form-group">
+        <label>Введите имя:</label>
+        <input class="form-control" placeholder="имя" autocomplete="off" name="name" value="@Request.Query["name"]" />
+    </div>
+    <button type="submit" class="btn btn-primary">Отправить</button>
+</form>
