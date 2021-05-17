@@ -1,0 +1,16 @@
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar16_12.05\Homework\Homework\Homework1\bin\Debug\net5.0\Homework1.exe
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar16_12.05\Homework\Homework\Homework1\bin\Debug\net5.0\Homework1.deps.json
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar16_12.05\Homework\Homework\Homework1\bin\Debug\net5.0\Homework1.runtimeconfig.json
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar16_12.05\Homework\Homework\Homework1\bin\Debug\net5.0\Homework1.runtimeconfig.dev.json
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar16_12.05\Homework\Homework\Homework1\bin\Debug\net5.0\Homework1.dll
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar16_12.05\Homework\Homework\Homework1\bin\Debug\net5.0\ref\Homework1.dll
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar16_12.05\Homework\Homework\Homework1\bin\Debug\net5.0\Homework1.pdb
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar16_12.05\Homework\Homework\Homework1\obj\Debug\net5.0\Homework1.csprojAssemblyReference.cache
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar16_12.05\Homework\Homework\Homework1\obj\Debug\net5.0\Homework1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar16_12.05\Homework\Homework\Homework1\obj\Debug\net5.0\Homework1.AssemblyInfoInputs.cache
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar16_12.05\Homework\Homework\Homework1\obj\Debug\net5.0\Homework1.AssemblyInfo.cs
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar16_12.05\Homework\Homework\Homework1\obj\Debug\net5.0\Homework1.csproj.CoreCompileInputs.cache
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar16_12.05\Homework\Homework\Homework1\obj\Debug\net5.0\Homework1.dll
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar16_12.05\Homework\Homework\Homework1\obj\Debug\net5.0\ref\Homework1.dll
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar16_12.05\Homework\Homework\Homework1\obj\Debug\net5.0\Homework1.pdb
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar16_12.05\Homework\Homework\Homework1\obj\Debug\net5.0\Homework1.genruntimeconfig.cache
