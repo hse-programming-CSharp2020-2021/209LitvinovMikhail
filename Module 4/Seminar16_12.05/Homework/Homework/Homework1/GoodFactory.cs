@@ -1,21 +1,16 @@
 ﻿using System;
-
-namespace Homework
-{
-    class GoodFactory : IEntityFactory<Good>
-    {
-        private static long _id = 0;
-
-        private string _name;
-
-        private long _shopId;
+namespace Homework {
+    class GoodFactory : IEntityFactory<Good> {
+        private static long Id { get; set; } = 0;
+        private string Name { get; set; }
+        private long ShopId { get; set; }
 
         public GoodFactory(string name, long shopId)
         {
-            _name = name;
-            _shopId = shopId;
+            Name = name;
+            ShopId = shopId;
         }
 
-        public Good Instance => new Good(_id++, _name, _shopId);
+        public Good Instance => new Good(Id++, Name, ShopId);
     }
 }

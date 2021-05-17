@@ -1,18 +1,11 @@
 ﻿using System;
+namespace Homework {
 
-namespace Homework
-{
-    class ShopFactory : IEntityFactory<Shop>
-    {
-        private static long _id = 1;
+    class ShopFactory : IEntityFactory<Shop> {
+        private static long Id { get; set; } = 1;
+        private string Name { get; set; }
 
-        private string _name;
-
-        public ShopFactory(string name)
-        {
-            _name = name;
-        }
-
-        public Shop Instance => new Shop(_id++, _name);
+        public ShopFactory(string name) => this.Name = name;
+        public Shop Instance => new Shop(Id++, this.Name);
     }
 }
