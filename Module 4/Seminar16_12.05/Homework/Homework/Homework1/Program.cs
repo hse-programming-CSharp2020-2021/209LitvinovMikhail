@@ -34,7 +34,6 @@ namespace Homework
             //{
             //    Console.WriteLine(goodName);
             //}
-
             db.SerializeDataBase();
             db.DeserializeDataBase("ShopDataBase");
             Console.ReadKey();

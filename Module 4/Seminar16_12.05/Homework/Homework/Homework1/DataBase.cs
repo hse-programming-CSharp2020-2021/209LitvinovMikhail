@@ -86,7 +86,8 @@ namespace Homework {
                 FileInfo fileInfo = new FileInfo(filePath);
                 int firstIndex = fileInfo.Name.IndexOf('B') + 1;
                 int lastIndex = fileInfo.Name.LastIndexOf('.');
-                Type tableType = Type.GetType(fileInfo.Name.Substring(firstIndex, lastIndex - firstIndex));
+                // Часть кода, для работоспособности которой запрещено менять неймспейсы "сущностей".
+                Type tableType = Type.GetType("Homework." + fileInfo.Name.Substring(firstIndex, lastIndex - firstIndex));
                 if (result.ContainsKey(tableType)) { throw new DataBaseException($"The uploaded database already has a {tableType.Name}-type table"); }
                 using (FileStream input = new FileStream(filePath, FileMode.OpenOrCreate, FileAccess.ReadWrite)) {
                     using (StreamReader reader = new StreamReader(input)) {
