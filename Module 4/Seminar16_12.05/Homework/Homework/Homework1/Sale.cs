@@ -15,7 +15,10 @@ namespace Homework {
         [JsonPropertyName("Quantity")]
         public uint Quantity { get; private set; } = 0;
         [JsonPropertyName("Price")]
-        public uint Price { get; private set; } = 0;
+        public double Price { get; private set; } = 0;
+
+        public override string ToString() => $"ID: {this.Id}, BuyerID: {this.BuyerId}, ShopID: {this.ShopId}, " +
+            $"GoodID: {this.GoodId}, Quantity: {this.Quantity}, Price: {this.Price}";
 
         public Sale(long id, long buyerId, long shopId,
             long goodId) {
@@ -26,7 +29,7 @@ namespace Homework {
         }
         [JsonConstructor]
         public Sale(long id, long buyerId, long shopId,
-            long goodId, uint quantity, uint price)
+            long goodId, uint quantity, double price)
             :this(id, buyerId, shopId, goodId) {
             this.Quantity = quantity;
             this.Price = price;

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-
+using System.Collections.Generic;
 namespace Homework
 {
     class Program
@@ -18,24 +18,71 @@ namespace Homework
             db.InsertInto<Shop>(new ShopCreator("Magnit"));
 
             db.InsertInto<Good>(new GoodCreator("Pepsi", 1));
-            db.InsertInto(new GoodCreator("3 korochki", 1));
-            db.InsertInto(new GoodCreator("Ohota", 2));
-            db.InsertInto(new GoodCreator("Lays", 3));
+            db.InsertInto<Good>(new GoodCreator("3 korochki", 1));
+            db.InsertInto<Good>(new GoodCreator("Ohota", 2));
+            db.InsertInto<Good>(new GoodCreator("Lays", 3));
 
-            //var auchanId = (from shop in db.Table<Shop>()
-            //                where shop.Name == "Auchan"
-            //                select shop.Id).First();
+            db.InsertInto<Buyer>(new BuyerCreator("Alexey", "Tropilin"));
 
-            //var allAuchanGoods = from good in db.Table<Good>()
-            //                     where good.ShopId == auchanId
-            //                     select good.Name;
+            db.InsertInto<Sale>(new SaleCreator(1, 1, 2));
+            db.InsertInto<Sale>(new SaleCreator(1, 2, 3));
+            // ------------------------------------------------------------------
+            // Задание 3:
 
-            //foreach (var goodName in allAuchanGoods)
-            //{
-            //    Console.WriteLine(goodName);
-            //}
+            /* 1) */
+
+            int maxLengthOfAName = (db[typeof(Buyer)] as List<Buyer>).Max<Buyer>(buyer => buyer.Name.Length);
+            IEnumerable<Good> firstQuery = from Buyer buyer in (db[typeof(Buyer)] as List<Buyer>)
+                                           from Sale sale in (db[typeof(Sale)] as List<Sale>)
+                                           from Good good in (db[typeof(Good)] as List<Good>)
+                                           where buyer.Name.Length == maxLengthOfAName && sale.BuyerId == buyer.Id && good.Id == sale.GoodId
+                                           select good;
+            foreach (Good good in firstQuery) { Console.WriteLine(good.ToString()); }
+            Console.WriteLine();
+
+            /* 2) */
+
+            double maxPrice = (db[typeof(Sale)] as List<Sale>).Max<Sale>(sale => sale.Price / sale.Quantity);
+            Sale maxPriceSale = (db[typeof(Sale)] as List<Sale>).Aggregate<Sale>((first, second) =>
+            ((first.Price / first.Quantity) > (second.Price / second.Quantity)) ? first : second);
+            string secondQuery = (db[typeof(Good)] as List<Good>).First<Good>(good => good.Id == maxPriceSale.GoodId).Category;
+            Console.WriteLine(secondQuery + Environment.NewLine);
+
+            /* 3) */
+
+
+
+            /* 4) */
+
+
+            /* 5) */
+
+            int fifthQuery = (from Shop shop in (db[typeof(Shop)] as List<Shop>)
+                             group shop by shop.Country).Min(groupElement => groupElement.Count());
+            Console.WriteLine(fifthQuery + Environment.NewLine);
+
+            //string minShopsQuantityCountry = (db[typeof(Sale)] as List<Sale>)
+                                 /* 6) */
+            IEnumerable <Sale> sixthQuery =   from Sale sale in (db[typeof(Sale)] as List<Sale>)
+                                              from Buyer buyer in (db[typeof(Buyer)] as List<Buyer>)
+                                              from Shop shop in (db[typeof(Shop)] as List<Shop>)
+                                              where sale.ShopId == shop.Id && buyer.District != shop.District
+                                              select sale;
+            foreach (Sale sale in sixthQuery) { Console.WriteLine(sale.ToString()); }
+            Console.WriteLine();
+
+
+            /* 7) */
+            double seventhQuery = (db[typeof(Sale)] as List<Sale>).Sum<Sale>(sale => sale.Price);
+            Console.WriteLine($"{seventhQuery}" + Environment.NewLine);
+            Console.WriteLine();
+
+
+
+            // ------------------------------------------------------------------
+            // Задание 2:
             db.SerializeDataBase();
-            db.DeserializeDataBase("ShopDataBase");
+            db.DeserializeDataBase(db.Name);
             Console.ReadKey();
         }
     }

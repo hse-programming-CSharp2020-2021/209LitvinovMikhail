@@ -23,6 +23,9 @@ namespace Homework {
         [JsonPropertyName("PostIndex")]
         public uint PostIndex { get; private set; } = 0;
 
+        public override string ToString() => $"ID: {this.Id}, Name: {this.Name}, Surname: {this.Surname}, " +
+            $"Address: {this.Address}, City: {this.City}, District: {this.District}, Country: {this.Country}, PostIndex: {this.PostIndex}";
+
         public Buyer(long id, string name, string surname) {
             this.Id = id;
             this.Name = name;

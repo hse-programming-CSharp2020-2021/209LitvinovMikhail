@@ -36,6 +36,8 @@ namespace Homework {
             ((List<T>)Tables[tableType]).Add(values.Instance);
         }
 
+        public object this[Type type] => this.Tables[type]; 
+
         public IEnumerable<T> Table<T>() where T : IEntity {
             Type tableType = typeof(T);
 

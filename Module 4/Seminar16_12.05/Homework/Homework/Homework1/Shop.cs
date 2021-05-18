@@ -17,6 +17,10 @@ namespace Homework {
         public string Country { get; private set; } = string.Empty;
         [JsonPropertyName("PhoneNumber")]
         public string PhoneNumber { get; private set; } = string.Empty;
+
+        public override string ToString() => $"ID: {this.Id}, Name: {this.Name}, District: {this.District}, " +
+            $"Country: {this.Country}, PhoneNumber: {this.PhoneNumber}";
+
         public Shop(long id, string name) {
             Id = id;
             Name = name;

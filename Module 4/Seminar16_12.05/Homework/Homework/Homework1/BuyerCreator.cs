@@ -12,13 +12,13 @@ namespace Homework {
         private string Country { get;  set; } = string.Empty;
         private uint PostIndex { get;  set; } = 0;
 
-        public BuyerCreator(long id, string name, string surname) {
+        public BuyerCreator(string name, string surname) {
             this.Name = name;
             this.Surname = surname;
         }
 
-        public BuyerCreator(long id, string name, string surname, string address,
-            string city, string district, string country, uint postIndex) : this(id, name, surname)
+        public BuyerCreator(string name, string surname, string address,
+            string city, string district, string country, uint postIndex) : this(name, surname)
         {
             this.Address = address;
             this.City = city;

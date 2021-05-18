@@ -8,7 +8,7 @@ namespace Homework {
         private long ShopId { get; }
         private long GoodId { get; }
         private uint Quantity { get; set; } = 0;
-        private uint Price { get; set; } = 0;
+        private double Price { get; set; } = 0;
 
         public SaleCreator(long buyerId, long shopId,
             long goodId) {
@@ -18,7 +18,7 @@ namespace Homework {
         }
 
         public SaleCreator(long id, long buyerId, long shopId,
-            long goodId, uint quantity, uint price)
+            long goodId, uint quantity, double price)
             : this(buyerId, shopId, goodId) {
             this.Quantity = quantity;
             this.Price = price;
