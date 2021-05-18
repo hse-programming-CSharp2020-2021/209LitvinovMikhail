@@ -56,9 +56,21 @@ namespace Homework
                               group sale by shop.City).OrderBy(groupping => groupping.Sum(sale => sale.Price));
             Console.WriteLine(thirdQuery.First().Key + Environment.NewLine);
 
-
             /* 4) */
             Console.WriteLine(3.4);
+            string mostPopularGoodName =
+                     (from Sale sale in (db[typeof(Sale)] as List<Sale>)
+                     from Good good in (db[typeof(Good)] as List<Good>)
+                     where sale.GoodId == good.Id
+                     group sale by good.Name into gr
+                     select (gr.Key, gr.Sum(sale => sale.Quantity))).Aggregate((first, second) => 
+                     (first.Item2 > second.Item2) ? first : second).Key;
+            IEnumerable<string> fourthQuery = from Sale sale in (db[typeof(Sale)] as List<Sale>)
+                                              from Buyer buyer in (db[typeof(Buyer)] as List<Buyer>)
+                                              from Good good in (db[typeof(Good)] as List<Good>)
+                                              where sale.BuyerId == buyer.Id && sale.GoodId == good.Id && good.Name == mostPopularGoodName
+                                              select buyer.Surname;
+            foreach (string surname in fourthQuery) { Console.WriteLine(surname); }
             Console.WriteLine();
 
             /* 5) */
