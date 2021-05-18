@@ -22,6 +22,7 @@ namespace Homework {
             ShopId = shopId;
         }
 
+        [JsonConstructor]
         public Good(long id, string name, long shopId,
             string category, string description) : this(id, name, shopId) {
             this.Category = category;

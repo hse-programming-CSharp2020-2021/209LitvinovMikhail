@@ -91,11 +91,22 @@ namespace Homework {
                 if (result.ContainsKey(tableType)) { throw new DataBaseException($"The uploaded database already has a {tableType.Name}-type table"); }
                 using (FileStream input = new FileStream(filePath, FileMode.OpenOrCreate, FileAccess.ReadWrite)) {
                     using (StreamReader reader = new StreamReader(input)) {
-                        result.Add(tableType, JsonSerializer.Deserialize(reader.ReadToEnd(), tableType));
+                        result.Add(tableType, 
+                            JsonSerializer.Deserialize(reader.ReadToEnd(), DataBase.GetListTypeOfTable(tableType)));
                     }
                 }
             }
             return result;
+        }
+
+        private static Type GetListTypeOfTable(Type type) {
+            switch (type.Name) {
+                case "Buyer": return typeof(List<Buyer>);
+                case "Sale": return typeof(List<Sale>);
+                case "Good": return typeof(List<Good>);
+                case "Shop": return typeof(List<Shop>);
+                default: return type;
+            }
         }
 
     }

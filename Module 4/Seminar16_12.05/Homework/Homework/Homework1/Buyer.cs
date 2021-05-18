@@ -29,6 +29,7 @@ namespace Homework {
             this.Surname = surname;
         }
 
+        [JsonConstructor]
         public Buyer(long id, string name, string surname, string address, 
             string city, string district, string country, uint postIndex) : this(id, name, surname) {
             this.Address = address;

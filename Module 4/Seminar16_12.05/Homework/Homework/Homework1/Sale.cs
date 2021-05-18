@@ -24,7 +24,7 @@ namespace Homework {
             this.ShopId = shopId;
             this.GoodId = goodId;
         }
-
+        [JsonConstructor]
         public Sale(long id, long buyerId, long shopId,
             long goodId, uint quantity, uint price)
             :this(id, buyerId, shopId, goodId) {

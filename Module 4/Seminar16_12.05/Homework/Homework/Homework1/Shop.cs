@@ -21,7 +21,7 @@ namespace Homework {
             Id = id;
             Name = name;
         }
-
+        [JsonConstructor]
         public Shop(long id, string name, string city, string district,
             string country, string phoneNumber) : this(id, name) {
             this.City = city;
