@@ -111,5 +111,15 @@ namespace Homework {
             }
         }
 
+        public void WriteDatabaseData() {
+            foreach (KeyValuePair<Type, object> pair in this.Tables) {
+                Console.WriteLine($"DB{pair.Key.Name}:");
+                foreach (object element in (pair.Value as IEnumerable<IEntity>)) {
+                    Console.WriteLine(element.ToString());
+                }
+            }
+
+        }
+
     }
 }
