@@ -30,7 +30,7 @@ namespace Homework
             // Задание 3:
 
             /* 1) */
-
+            Console.WriteLine(3.1);
             int maxLengthOfAName = (db[typeof(Buyer)] as List<Buyer>).Max<Buyer>(buyer => buyer.Name.Length);
             IEnumerable<Good> firstQuery = from Buyer buyer in (db[typeof(Buyer)] as List<Buyer>)
                                            from Sale sale in (db[typeof(Sale)] as List<Sale>)
@@ -41,7 +41,7 @@ namespace Homework
             Console.WriteLine();
 
             /* 2) */
-
+            Console.WriteLine(3.2);
             double maxPrice = (db[typeof(Sale)] as List<Sale>).Max<Sale>(sale => sale.Price / sale.Quantity);
             Sale maxPriceSale = (db[typeof(Sale)] as List<Sale>).Aggregate<Sale>((first, second) =>
             ((first.Price / first.Quantity) > (second.Price / second.Quantity)) ? first : second);
@@ -49,20 +49,26 @@ namespace Homework
             Console.WriteLine(secondQuery + Environment.NewLine);
 
             /* 3) */
-
+            Console.WriteLine(3.3);
+            var thirdQuery = (from Sale sale in (db[typeof(Sale)] as List<Sale>)
+                              from Shop shop in (db[typeof(Shop)] as List<Shop>)
+                              where sale.ShopId == shop.Id
+                              group sale by shop.City).OrderBy(groupping => groupping.Sum(sale => sale.Price));
+            Console.WriteLine(thirdQuery.First().Key + Environment.NewLine);
 
 
             /* 4) */
-
+            Console.WriteLine(3.4);
+            Console.WriteLine();
 
             /* 5) */
-
+            Console.WriteLine(3.5);
             int fifthQuery = (from Shop shop in (db[typeof(Shop)] as List<Shop>)
                              group shop by shop.Country).Min(groupElement => groupElement.Count());
             Console.WriteLine(fifthQuery + Environment.NewLine);
-
-            //string minShopsQuantityCountry = (db[typeof(Sale)] as List<Sale>)
-                                 /* 6) */
+           
+            /* 6) */
+            Console.WriteLine(3.6);
             IEnumerable <Sale> sixthQuery =   from Sale sale in (db[typeof(Sale)] as List<Sale>)
                                               from Buyer buyer in (db[typeof(Buyer)] as List<Buyer>)
                                               from Shop shop in (db[typeof(Shop)] as List<Shop>)
@@ -73,6 +79,7 @@ namespace Homework
 
 
             /* 7) */
+            Console.WriteLine(3.7);
             double seventhQuery = (db[typeof(Sale)] as List<Sale>).Sum<Sale>(sale => sale.Price);
             Console.WriteLine($"{seventhQuery}" + Environment.NewLine);
             Console.WriteLine();
