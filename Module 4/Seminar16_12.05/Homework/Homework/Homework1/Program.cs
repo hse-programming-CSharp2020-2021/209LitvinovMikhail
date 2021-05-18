@@ -42,7 +42,6 @@ namespace Homework
 
             /* 2) */
             Console.WriteLine(3.2);
-            double maxPrice = (db[typeof(Sale)] as List<Sale>).Max<Sale>(sale => sale.Price / sale.Quantity);
             Sale maxPriceSale = (db[typeof(Sale)] as List<Sale>).Aggregate<Sale>((first, second) =>
             ((first.Price / first.Quantity) > (second.Price / second.Quantity)) ? first : second);
             string secondQuery = (db[typeof(Good)] as List<Good>).First<Good>(good => good.Id == maxPriceSale.GoodId).Category;
@@ -84,7 +83,7 @@ namespace Homework
             IEnumerable <Sale> sixthQuery =   from Sale sale in (db[typeof(Sale)] as List<Sale>)
                                               from Buyer buyer in (db[typeof(Buyer)] as List<Buyer>)
                                               from Shop shop in (db[typeof(Shop)] as List<Shop>)
-                                              where sale.ShopId == shop.Id && buyer.District != shop.District
+                                              where sale.ShopId == shop.Id && sale.BuyerId == buyer.Id && buyer.City != shop.City
                                               select sale;
             foreach (Sale sale in sixthQuery) { Console.WriteLine(sale.ToString()); }
             Console.WriteLine();
