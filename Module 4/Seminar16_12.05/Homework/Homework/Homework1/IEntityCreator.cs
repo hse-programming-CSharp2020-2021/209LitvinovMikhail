@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace Homework {
-    interface IEntityFactory<out T>
+    interface IEntityCreator<out T>
     {
         T Instance { get; }
     }

@@ -26,7 +26,7 @@ namespace Homework {
             Tables[tableType] = new List<T>();
         }
 
-        public void InsertInto<T>(IEntityFactory<T> values) where T : IEntity {
+        public void InsertInto<T>(IEntityCreator<T> values) where T : IEntity {
             Type tableType = typeof(T);
 
             if (!Tables.ContainsKey(tableType)) {
