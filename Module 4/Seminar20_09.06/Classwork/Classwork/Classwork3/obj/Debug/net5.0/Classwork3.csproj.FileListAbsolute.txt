@@ -1,0 +1,16 @@
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar20_09.06\Classwork\Classwork\Classwork3\bin\Debug\net5.0\Classwork3.exe
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar20_09.06\Classwork\Classwork\Classwork3\bin\Debug\net5.0\Classwork3.deps.json
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar20_09.06\Classwork\Classwork\Classwork3\bin\Debug\net5.0\Classwork3.runtimeconfig.json
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar20_09.06\Classwork\Classwork\Classwork3\bin\Debug\net5.0\Classwork3.runtimeconfig.dev.json
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar20_09.06\Classwork\Classwork\Classwork3\bin\Debug\net5.0\Classwork3.dll
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar20_09.06\Classwork\Classwork\Classwork3\bin\Debug\net5.0\ref\Classwork3.dll
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar20_09.06\Classwork\Classwork\Classwork3\bin\Debug\net5.0\Classwork3.pdb
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar20_09.06\Classwork\Classwork\Classwork3\obj\Debug\net5.0\Classwork3.csprojAssemblyReference.cache
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar20_09.06\Classwork\Classwork\Classwork3\obj\Debug\net5.0\Classwork3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar20_09.06\Classwork\Classwork\Classwork3\obj\Debug\net5.0\Classwork3.AssemblyInfoInputs.cache
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar20_09.06\Classwork\Classwork\Classwork3\obj\Debug\net5.0\Classwork3.AssemblyInfo.cs
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar20_09.06\Classwork\Classwork\Classwork3\obj\Debug\net5.0\Classwork3.csproj.CoreCompileInputs.cache
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar20_09.06\Classwork\Classwork\Classwork3\obj\Debug\net5.0\Classwork3.dll
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar20_09.06\Classwork\Classwork\Classwork3\obj\Debug\net5.0\ref\Classwork3.dll
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar20_09.06\Classwork\Classwork\Classwork3\obj\Debug\net5.0\Classwork3.pdb
+C:\Users\8.1\source\repos\209LitvinovMikhail\Module 4\Seminar20_09.06\Classwork\Classwork\Classwork3\obj\Debug\net5.0\Classwork3.genruntimeconfig.cache
